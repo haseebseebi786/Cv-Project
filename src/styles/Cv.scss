@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.left-side{
+    width: 30%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(234, 107, 234), rgb(112, 235, 235), rgb(235, 235, 119));
+    box-shadow: 2px 2px 2px rgb(160, 55, 55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.right-side{
+    width: 65%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.dp{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.name{
+    text-shadow: 2px 3px 2px rgb(160, 157, 157);
+}
+.line{
+    margin-top: 10px;
+    width: 170px;
+    height: 4px;
+    background-color: rgb(94, 43, 94);
+    border-radius: 10px;
+}
+.designation{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+
+//------------------------------Information--------------------------------
+.contact{
+    margin: 40px 0 10px 50px ;  
+}
+.contact li{
+    margin: 5px 5px 5px 25px;
+}
+.line2{
+    margin-bottom: 15px;
+    width: 85px;
+    height: 4px;
+    background-color: rgb(94, 43, 94);
+    border-radius: 10px;
+}
+.contact p{
+   margin-top: 10px;
+}
+.personal{
+    margin: 5px 0 20px 45px ;
+}
+.line3{
+    margin-bottom: 15px;
+    width: 90px;
+    height: 4px;
+    background-color: rgb(94, 43, 94);
+    border-radius: 10px;
+}
+.personal li{
+    margin: 5px 5px 5px 30px;
+}
+
+
+
+//------------------------------------------------Software Skills---------------------------
+.software-skills{   
+    margin: 5px 0 20px 45px;
+}
+.software-skills li{
+    width: 100px;
+    margin: 0 5px 0 0;
+}
+
+.html{
+    margin: 2px 0 0 25px ;
+    display: flex;
+    align-items: center; 
+}
+
+.html-inner{
+    width: 140px;
+}
+
+.css{
+    margin: 2px 0 0 25px ;
+    display: flex;
+    align-items: center;
+   
+}
+
+.css-inner{
+    width: 120px;
+}
+
+.bootstrap{
+    margin: 2px 0 0 25px ;
+    display: flex;
+    align-items: center;
+   
+}
+
+.bootstrap-inner{
+    width: 120px;
+}
+
+.javascript{
+    margin: 2px 0 0 25px ;
+    display: flex;
+    align-items: center;
+  
+}
+
+.javascript-inner{
+    width: 110px;
+}
+
+.react{
+    margin: 2px 0 0 25px ;
+    display: flex;
+    align-items: center;
+}
+.react-inner{
+    width: 100px;
+}
+
+
+.outer{
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(152, 173, 211);
+   
+}
+.inner{
+
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(11, 161, 220);
+}
+
+
+.line4{
+    margin-bottom: 15px;
+    width: 150px;
+    height: 4px;
+    background-color: rgb(94, 43, 94);
+    border-radius: 10px;
+}
+
+
+//----------------------------------about-me----------------------------
+.about-me{
+    display: flex;
+    margin: 20px 100px 5px 30px;
+    padding: 20px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(222, 198, 198);
+    background: linear-gradient(to right, rgb(234, 107, 234), rgb(112, 235, 235), rgb(235, 235, 119));
+}
+.about-me h2{
+ text-align: center;
+ font-style: oblique;
+}
+.about-me p{
+    margin-left: 20px;
+    font-style: oblique;
+    font-size: large;
+    font-weight: 700;
+}
+.line-1{
+    margin-top: 10px;
+    width: 90%;
+    height: 3px;
+    background-color: rgb(94, 43, 94);
+    border-radius: 10px;
+}
+
+
+
+//-----------------------------------------education-----------------------------------
+.education{
+    margin: 20px 100px 5px 30px;
+    padding: 5px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(222, 198, 198);
+    background: linear-gradient(to right, rgb(234, 107, 234), rgb(112, 235, 235), rgb(235, 235, 119));
+}
+
+.university{
+    display: flex;
+}
+
+.uni-1{
+    width: 30%;
+    padding: 10px;
+}
+
+
+.uni-2{
+    width: 70%;
+    padding: 10px;
+}
+
+.college{
+    display: flex;
+}
+.colg-1{
+    width: 30%;
+    padding: 10px;
+}
+
+.colg-2{
+    width: 70%;
+    padding: 10px;
+}
+
+.school{
+    display: flex;
+}
+.school-1{
+    width: 30%;
+    padding: 10px;
+}
+
+.school-2{
+    width: 70%;
+    padding: 10px;
+}
+
+
+
+//------------------------------------working experience----------------------------------
+.experience{
+    margin: 20px 100px 5px 30px;
+    padding: 5px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(222, 198, 198);
+    background: linear-gradient(to right, rgb(234, 107, 234), rgb(112, 235, 235), rgb(235, 235, 119));
+}
+.experience h5{  
+    padding: 10px 0 2px 5px;
+}
+
+
+
+
+//----------------------------------Projects----------------------------------------------
+.Projects{
+    margin: 20px 100px 5px 30px;
+    padding: 5px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(222, 198, 198);
+    background: linear-gradient(to right, rgb(234, 107, 234), rgb(112, 235, 235), rgb(235, 235, 119));
+}
+
+
+.final-year{
+    display: flex;
+}
+
+.finalyear-1{
+    width: 30%;
+    padding: 5px;
+}
+
+.finalyear-2{
+    width: 70%;
+    padding: 5px;
+}
+
+.duz{  
+    padding: 5px 0 2px 5px;
+}
+
+//--------------------------------Hobbies----------------------------------------
+
+.hobbies{
+    margin: 20px 100px 5px 30px;
+    padding: 5px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(222, 198, 198);
+    background: linear-gradient(to right, rgb(234, 107, 234), rgb(112, 235, 235), rgb(235, 235, 119));
+}
+.hobbies h5{  
+    padding: 5px 0 2px 5px;
+}
