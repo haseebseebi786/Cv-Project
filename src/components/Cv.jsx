@@ -8,9 +8,9 @@ const Cv = () => {
                 <div className="left-side">
                     <div>
                         <img src={dp} className="dp" alt="display-picture" />
-                        <h1 className="name">Achu Gujjar</h1>
+                        <h1 className="name">Haseeb Ahmed</h1>
                         <div className="line"></div>
-                        <p className="designation">100 Bhainsun Wala</p>
+                        <p className="designation">React JS Developer</p>
 
                     </div>
 
@@ -155,7 +155,7 @@ const Cv = () => {
                                 <div className="finalyear-2">  <h5>All In One (Android Application) </h5></div>
                             </div>
 
-                            <h5 className="duz">Baqi Itna time nahi hota kay beth kay Projects bnata rahun, Aur ye Project bhi 15000 ka Purchase kiya tha jo chipka diya tha </h5>
+                          
                         </div>
 
                         <div className="hobbies">
